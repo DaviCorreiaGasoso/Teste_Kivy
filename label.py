@@ -6,11 +6,11 @@ class MinhaAplicacao(App):
     def build(self):
         return Label(
             text='Olá SESI',
-            halign='left',
+            halign='center',
             valign='top',
             size_hint = (None, None),
             size = (150, 50),
-            text_size=(150,None)
+            text_size=(150, None)
             )
 
 if __name__ == '__main__':
